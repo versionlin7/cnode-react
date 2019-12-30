@@ -1,0 +1,25 @@
+.panel .Login {
+  min-height:300px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+.panel .Login .item {
+  margin-bottom:10px
+}
+.panel .Login .span-primary {
+  border-radius: 3px;
+  background-color: #08c;
+  padding:0 10px;
+  border-width: 0;
+  color: white;
+  line-height: 2em;
+  cursor:pointer;
+}
+.panel .Login .span-primary:hover {
+  background-color:#0055cc;
+}
+.panel .Login .span-primary:focus {
+  outline:auto;
+}

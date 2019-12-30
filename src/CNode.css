@@ -1,0 +1,72 @@
+.body-header input {
+  display: none;
+}
+.body-header label {
+  margin: 0 10px;
+  color: #80bd01;
+  cursor: pointer;
+}
+.body-List {
+  background-color: white;
+}
+.body-header input:checked + span{
+  background-color: #80bd01;
+  color: #fff;
+  padding: 3px 4px;
+  border-radius: 3px;
+  cursor: default;;
+}
+.body-header {
+  padding: 10px;
+  background-color: #f6f6f6;
+  border-radius: 3px 3px 0 0;
+}
+.topic-cell {
+  height:30px;
+  background: #fff;
+  border-top: 1px solid #f0f0f0;
+  padding: 10px;
+  font-size: 14px;
+  overflow: hidden;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.topic-cell:hover {
+  background: #f5f5f5;
+}
+.topic-cell img {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+.topic-cell-title {
+  width: 60%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex-grow: 1;
+  text-align: left;
+}
+.topic-cell-title:hover {
+  text-decoration: underline;
+}
+.topic-cell-title:visited {
+  color: #888;
+}
+.topic-cell-avatar {
+  width: 62px;
+}
+.reply_count {
+  width:15%;
+  text-align: right;
+}
+.last_active_time {
+  width:15%;
+  text-align: right;
+}
+
+.reply_count {
+  user-select: none;
+}

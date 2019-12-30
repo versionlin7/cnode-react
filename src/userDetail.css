@@ -1,0 +1,36 @@
+.panel {
+  margin-bottom: 13px;
+}
+.panel .inner.userinfo {
+  padding: 10px;
+  border-top: 1px solid #e5e5e5;
+}
+.panel .inner {
+  border-radius: 0 0 3px 3px;
+}
+.inner {
+  background-color: #fff;
+}
+.panel .inner, .panel .inner li {
+  line-height: 2em;
+}
+.user_big_avatar img {
+  width: 100px;
+  height: 100px;
+}
+.user_big_avatar {
+  float: left;
+  margin-right: 10px;
+}
+a.dark {
+  color: #666;
+  text-decoration: none;
+}
+.user_profile {
+  margin-top: 20px;
+  clear: left;
+}
+
+ion-icon {
+  margin-right: 10px;
+}
